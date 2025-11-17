@@ -1,0 +1,2 @@
+﻿# Requirements
+- Newtonsoft.Json

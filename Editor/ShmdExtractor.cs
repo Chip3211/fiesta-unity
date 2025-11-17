@@ -1,4 +1,10 @@
-﻿#if UNITY_EDITOR
+﻿/**
+ * This file expects a mapping CSV where:
+ * - the the first column contains the original fiesta path, starting with "resmap"
+ * - the second column contains the path to the prefab in Unity relative to the "Assets/Resources" folder and without a file extension
+ */
+
+#if UNITY_EDITOR
 using System.Collections.Generic;
 using System.Globalization;
 using System.IO;
